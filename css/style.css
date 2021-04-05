@@ -56,5 +56,21 @@ button:hover{
 	overflow: hidden;
 	margin-top: 50px;
 }
+.link{
+	text-decoration: none;
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0 0 15px 1px black;
+	font-size: 20px;
+}
+.link:hover{
+	color: black;
+	font-size: 18px;
 
-
+}
+.link:active{
+	color: white;
+	font-size: 20px;
+	text-decoration: underline;
+}
